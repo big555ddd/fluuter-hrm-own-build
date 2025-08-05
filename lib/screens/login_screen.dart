@@ -169,45 +169,6 @@ class _LoginScreenState extends State<LoginScreen> {
                   ],
                 ),
               ),
-
-              const SizedBox(height: 24),
-
-              // Demo credentials info
-              Container(
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: AppTheme.white,
-                  borderRadius: BorderRadius.circular(8),
-                  border: Border.all(color: AppTheme.greyMedium),
-                ),
-                child: const Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Demo Credentials:',
-                      style: TextStyle(
-                        fontWeight: FontWeight.w600,
-                        color: AppTheme.textPrimary,
-                      ),
-                    ),
-                    SizedBox(height: 8),
-                    Text(
-                      'Email: admin@company.com',
-                      style: TextStyle(
-                        color: AppTheme.textSecondary,
-                        fontSize: 14,
-                      ),
-                    ),
-                    Text(
-                      'Password: password',
-                      style: TextStyle(
-                        color: AppTheme.textSecondary,
-                        fontSize: 14,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
             ],
           ),
         ),
